@@ -1,0 +1,10 @@
+[package]
+name = "spicyjourney"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dashmap = "6.1.0"
+fastnoise-lite = "1.1.1"
+raylib = "5.0.2"
+tokio = { version = "1.42.0", features = [ "full" ]}
